@@ -1,0 +1,48 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="WORKING-WITH-ITEXTSHARP:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/WORKING_WITH_ITEXTSHARP_jar</output-path>
+    <root id="archive" name="WORKING-WITH-ITEXTSHARP.jar">
+      <element id="module-output" name="WORKING-WITH-ITEXTSHARP" />
+      <element id="library" level="project" name="commons-8.0.3" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../layout-7.1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/io-7.1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/svg-7.1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/hyph-7.1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/pdfa-7.1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/sign-7.1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/forms-7.1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/kernel-7.1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/layout-7.1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/pdftest-7.1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/barcodes-7.1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/font-asian-7.1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/io-7.1.4-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/io-7.1.4-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/svg-7.1.4-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/svg-7.1.4-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/pdfa-7.1.4-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/pdfa-7.1.4-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/sign-7.1.4-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/sign-7.1.4-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/forms-7.1.4-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/forms-7.1.4-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/kernel-7.1.4-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/kernel-7.1.4-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/layout-7.1.4-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/layout-7.1.4-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/pdftest-7.1.4-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/pdftest-7.1.4-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/barcodes-7.1.4-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/barcodes-7.1.4-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/styled-xml-parser-7.1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/styled-xml-parser-7.1.4-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../iText7-Core-7.1.4/styled-xml-parser-7.1.4-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../itextpdf-5.1.0.jar/itextpdf-5.1.0.jar" path-in-jar="/" />
+      <element id="library" level="project" name="io-8.0.3" />
+      <element id="library" level="project" name="layout-8.0.3" />
+      <element id="library" level="project" name="kernel-8.0.3" />
+      <element id="library" level="project" name="bcpkix-jdk18on-1.76" />
+      <element id="library" level="project" name="slf4j-api-2.0.9-javadoc" />
+    </root>
+  </artifact>
+</component>
