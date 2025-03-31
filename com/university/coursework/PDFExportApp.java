@@ -1,13 +1,16 @@
 package com.university.coursework;
 
+import org.example.DatabaseConnection;
+
 import javax.swing.*;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.JTableHeader;
+import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 
 public class PDFExportApp extends JFrame {
     private final JTable table;
-    private final TableModel tableModel;
+    private final DefaultTableModel tableModel; // Changed to DefaultTableModel
 
     public PDFExportApp() {
         setTitle("Unique PDF Export Application");
@@ -23,7 +26,8 @@ public class PDFExportApp extends JFrame {
         }
 
         // Initialize components
-        tableModel = new TableModel();
+        String[] columns = {"ID", "Name", "Department", "Grade"}; // Column names for table
+        tableModel = new DefaultTableModel(columns, 0); // Initialize with column names, no data initially
         table = new JTable(tableModel);
 
         // Custom header styling
@@ -67,24 +71,8 @@ public class PDFExportApp extends JFrame {
     }
 
     private void loadData() {
-        Object[][] data = {
-                {1, "John Doe", "Computer Science", "A"},
-                {2, "Jane Smith", "Mathematics", "B"},
-                {3, "Alice Johnson", "Physics", "A+"},
-                {4, "Michael Brown", "Engineering", "B+"},
-                {5, "Emily Davis", "Biology", "A"},
-                {6, "David Wilson", "Economics", "B-"},
-                {7, "Sophia Martinez", "Chemistry", "A-"},
-                {8, "James Taylor", "History", "C+"},
-                {9, "Olivia Anderson", "Philosophy", "A"},
-                {10, "Ethan Thomas", "Statistics", "B"},
-                {11, "Charlotte White", "Political Science", "A-"},
-                {12, "Daniel Harris", "Electrical Engineering", "B+"},
-                {13, "Ava Martin", "Psychology", "A"},
-                {14, "Benjamin Clark", "Environmental Science", "C"}
-        };
-        String[] columns = {"ID", "Name", "Department", "Grade"};
-        tableModel.setData(data, columns);
+        // Use the DatabaseConnection to load data from the database
+        DatabaseConnection.loadData(tableModel); // Load data directly into the table model
     }
 
     private void exportToPDF() {
@@ -103,7 +91,7 @@ public class PDFExportApp extends JFrame {
     }
 
     private void clearTable() {
-        tableModel.setData(new Object[0][0], new String[0]);
+        tableModel.setRowCount(0); // Clear all rows in the table
     }
 
     public static void main(String[] args) {
