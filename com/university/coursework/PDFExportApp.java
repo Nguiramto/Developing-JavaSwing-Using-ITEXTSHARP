@@ -81,7 +81,7 @@ public class PDFExportApp extends JFrame {
                 {11, "Charlotte White", "Political Science", "A-"},
                 {12, "Daniel Harris", "Electrical Engineering", "B+"},
                 {13, "Ava Martin", "Psychology", "A"},
-                {14, "Benjamin Clark", "Environmental Science", "B-"}
+                {14, "Benjamin Clark", "Environmental Science", "C"}
         };
         String[] columns = {"ID", "Name", "Department", "Grade"};
         tableModel.setData(data, columns);
